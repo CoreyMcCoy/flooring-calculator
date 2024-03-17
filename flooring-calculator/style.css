@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.flooring-costs, .flooring-details {
+    background-color: rgba(235, 235, 235, 0.45) !important;
+}
+
