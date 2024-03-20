@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url("/fonts/LabGrotesqueRegular.otf") format("otf")
+}
+
 :root {
     --font-size: calc(1em + 1vw);
 }
 
 body {
+    font-family: 'Lab Grotesque', sans-serif !important;
     background-color: #000 !important;
 }
 
@@ -17,7 +23,7 @@ body {
 .signal h3 {
     color: #696f75;
     font-size: var(--font-size);
-
+    font-weight: 700;
 }
 
 
