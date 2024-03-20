@@ -1,0 +1,27 @@
+:root {
+    --font-size: calc(1em + 1vw);
+}
+
+body {
+    background-color: #000 !important;
+}
+
+.container-main {
+    margin-top: 8rem;
+}
+
+.signal {
+    cursor: pointer;
+}
+
+.signal h3 {
+    color: #696f75;
+    font-size: var(--font-size);
+
+}
+
+
+.signal h3:hover {
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
